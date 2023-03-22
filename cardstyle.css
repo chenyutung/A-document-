@@ -1,0 +1,67 @@
+body{
+    background-color: white;
+    color: black;
+    overflow: hidden;
+
+}
+
+header{
+    position: fixed;
+    top: -5vh;
+    left: 0;
+    width: 97%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+section.panner {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    /* width: 400px;
+    height: 400px; */
+    max-width:600px;
+    max-height:600px;
+    width: auto;
+    height: auto;
+}
+
+
+section.panner div.world{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 600px);
+    grid-gap: 48px;
+    padding: 48px;
+    
+}
+
+@media (max-width:600px){
+    body {
+        font-size: 24px;
+    }
+
+    section{
+        grid-gap: 32px;
+    }
+
+    section img{
+        width: 300px;
+    }
+}
