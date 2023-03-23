@@ -1,35 +1,61 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto Slab', serif;
   background: lightgray;
   font-size: 8.5pt;
   counter-reset: page;
+  margin: 40px;
 }
 
 h2 {
+  break-before: left;
+  font-size: 12pt;
+}
+.smallt{
+  font-size: 10pt;
+  font-weight:500;
+}
+img{
+  width: 300px;
+}
+img.face{
+  width:400px;
+}
+
+table{
+  margin: 30px;
+}
+td{
+  padding-left: 20px;
+}
+
+figure{
+  /* margin-top: 20%; */
+  break-before: left;
+}
+
+.text{
   break-before: right;
 }
 
-img{
-  width: 100%;
-}
-img.face{
-  width:1in;
-  
+figcaption{
+  text-align: center;
 }
 
 p:first-child{
   margin-top: 0;
 }
 
+
 .two-col {
-  column-count: 2;
-  column-gap: 2em;
-  color: red;
+  break-before: right;
+  /* column-count: 2;
+  column-gap: 2em; */
 }
 
 @media print {
   body {
-    background: white;
+    background: black;
+
   }
 }
 
@@ -38,11 +64,17 @@ p:first-child{
   size: 5in 8in;
   margin-top: 0.25in;
   margin-bottom: 0.5in;
+  font-size: 4px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
+
 @page:left {
-  margin-left: 0.25in;
-  margin-right: 1in;
+  margin-left: 0.3in;
+  margin-right: 0.6in;
+  padding-top: 80px;
+
   @bottom-left {
     content: counter(page);
   }
@@ -52,8 +84,10 @@ p:first-child{
 }
 
 @page:right {
-  margin-left: 1in;
-  margin-right: 0.25in;
+  margin-left: 0.6in;
+  margin-right: 0.3in;
+  padding: 0.1in;
+  padding-top: 60px;
   content:"What is document?";
 
   @bottom-left {

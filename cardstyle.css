@@ -25,6 +25,10 @@ header a{
     font-weight: bold;
 }
 
+a:hover{
+    color: white;
+}
+
 section.panner {
     overflow: hidden;
     width: 100vw;
