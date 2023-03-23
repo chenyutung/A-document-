@@ -9,32 +9,46 @@ body {
 h2 {
   break-before: left;
   font-size: 12pt;
+
+
 }
 .smallt{
   font-size: 10pt;
   font-weight:500;
+  line-height: 24px;
 }
 img{
   width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 img.face{
-  width:400px;
+  width:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 table{
   margin: 30px;
+
 }
 td{
   padding-left: 20px;
+  
 }
 
 figure{
   /* margin-top: 20%; */
-  break-before: left;
+  break-before:page;
+  
 }
 
 .text{
   break-before: right;
+  
 }
 
 figcaption{
@@ -43,6 +57,7 @@ figcaption{
 
 p:first-child{
   margin-top: 0;
+
 }
 
 
@@ -54,8 +69,8 @@ p:first-child{
 
 @media print {
   body {
-    background: black;
-
+    /* background: white; */
+  
   }
 }
 
@@ -65,15 +80,19 @@ p:first-child{
   margin-top: 0.25in;
   margin-bottom: 0.5in;
   font-size: 4px;
-  border: 1px solid black;
+ 
   border-radius: 10px;
+
 }
 
 
 @page:left {
-  margin-left: 0.3in;
-  margin-right: 0.6in;
-  padding-top: 80px;
+  margin-left: 0.5in;
+  margin-right: 0.5in;
+  margin-top: 85px;
+  padding-top: 30px;
+
+  border: 1px solid black;
 
   @bottom-left {
     content: counter(page);
@@ -83,15 +102,19 @@ p:first-child{
   }
 }
 
+
+
 @page:right {
-  margin-left: 0.6in;
-  margin-right: 0.3in;
-  padding: 0.1in;
-  padding-top: 60px;
+  margin-left: 0.5in;
+  margin-right: 0.5in;
+  margin-top: 85px;
+  padding-top: 30px;
+  
+  
   content:"What is document?";
 
   @bottom-left {
-    content:"E Roon Kang";
+    content:"Rachel Chen";
   }
   @bottom-right {
     content: counter(page);
