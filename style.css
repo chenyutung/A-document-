@@ -63,7 +63,7 @@ p:first-child{
 
 @media print {
   body {
-    /* background: white; */
+    background: white;
   
   }
 }
