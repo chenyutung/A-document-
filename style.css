@@ -1,5 +1,5 @@
 html {
-  background-color: black;
+  /* background-color: black; */
 }
 body {
   font-family: 'Roboto Slab', serif;
@@ -12,7 +12,7 @@ body {
 
 }
 .word {
-  padding-left: 13px;
+  padding-left: 13\px;
 }
 
 p{
