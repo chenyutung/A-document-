@@ -6,11 +6,9 @@ body {
   margin: 40px;
 }
 
-h2 {
-  break-before: left;
-  font-size: 12pt;
 
-
+h1{
+  font-size: 30px;
 }
 .smallt{
   font-size: 10pt;
@@ -61,11 +59,7 @@ p:first-child{
 }
 
 
-.two-col {
-  break-before: right;
-  /* column-count: 2;
-  column-gap: 2em; */
-}
+
 
 @media print {
   body {
@@ -98,7 +92,7 @@ p:first-child{
     content: counter(page);
   }
   @bottom-right {
-    content:"What is document?";
+    content:"CRYPTO ART";
   }
 }
 
@@ -114,7 +108,7 @@ p:first-child{
   content:"What is document?";
 
   @bottom-left {
-    content:"Rachel Chen";
+    content:"RACHEL CHEN";
   }
   @bottom-right {
     content: counter(page);
