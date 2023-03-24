@@ -64,6 +64,7 @@
         height: auto;
         border: 1px solid black;
         padding: 12px;
+        line-height: 18px;
     }
     .pagedjs_first_page {
         margin-left: var(--pagedjs-width);
