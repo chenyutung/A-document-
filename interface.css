@@ -34,7 +34,7 @@
         flex-shrink: 0;
         flex-grow: 0;
         margin-top: 10mm;
-        
+        font-size: 10px;
     }
 
     .pagedjs_page.pagedjs_left_page .pagedjs_area{
@@ -66,6 +66,7 @@
     .pagedjs_first_page {
         margin-left: var(--pagedjs-width);
         /* background-color: black; */
+        
 
     }
 
