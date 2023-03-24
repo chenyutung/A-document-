@@ -9,8 +9,10 @@ body {
   margin: 10px;
   border: 1px solid black;
   border-radius: 0.6rem;
-  padding: 20px;
 
+}
+.word {
+  padding-left: 20px;
 }
 
 p{
@@ -23,7 +25,7 @@ h1{
 .smallt{
   font-size: 10pt;
   font-weight:500;
-  line-height: 24px;
+  line-height: 20px;
   /* padding: 20px; */
 }
 img{
