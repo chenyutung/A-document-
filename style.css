@@ -9,6 +9,9 @@ body {
 
 h1{
   font-size: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .smallt{
   font-size: 10pt;
