@@ -50,6 +50,11 @@ img.qrcode{
   padding-bottom: 0px;
 }
 
+.maincode{
+  width: 100px;
+  position:relative;
+  left:70%;
+}
 img.face{
   width:300px;
   display: block;
