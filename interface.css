@@ -5,7 +5,7 @@
     --color-background: whitesmoke;
     --color-pageSheet: #cfcfcf;
     --color-pageBox: violet;
-    --color-paper: white;
+    --color-paper:  rgb(12, 12, 14);
     --color-marginBox: transparent;
     --pagedjs-crop-color: black;
     --pagedjs-crop-shadow: white;
@@ -24,6 +24,7 @@
         flex: 0;
         flex-wrap: wrap;
         margin: 0 auto;
+  
         
     }
 
@@ -39,22 +40,22 @@
 
     .pagedjs_page.pagedjs_left_page .pagedjs_area{
  
-        background-color: rgb(28, 29, 33);
+        /* background-color: rgb(28, 29, 33); */
         color: white;
-        height: 530px;
-        outline: 1px solid white;
-        outline-offset: -15px;
+        height: 700px;
+        /* outline: 1px solid white;
+        outline-offset: -15px; */
         border-radius: 0.6rem;
     }
 
     .pagedjs_page.pagedjs_right_page .pagedjs_area {
         /* background-color: white;
         color: black; */
-        background-color: rgb(28, 29, 33);
+        /* background-color: rgb(28, 29, 33); */
         color: white;
         height: 530px;
-        outline: 1px solid white;
-        outline-offset: -15px;
+        /* outline: 1px solid white;
+        outline-offset: -15px; */
         border-radius: 0.6rem;
     }
 
