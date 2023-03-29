@@ -5,7 +5,7 @@
     --color-background: whitesmoke;
     --color-pageSheet: #cfcfcf;
     --color-pageBox: violet;
-    --color-paper:  rgb(12, 12, 14);
+    --color-paper:  rgb(8, 8, 8);
     --color-marginBox: transparent;
     --pagedjs-crop-color: black;
     --pagedjs-crop-shadow: white;
@@ -53,7 +53,7 @@
         color: black; */
         /* background-color: rgb(28, 29, 33); */
         color: white;
-        height: 530px;
+        height: 700px;
         /* outline: 1px solid white;
         outline-offset: -15px; */
         border-radius: 0.6rem;

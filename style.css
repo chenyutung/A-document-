@@ -42,7 +42,7 @@ h2{
   /* padding: 20px; */
 }
 img.qrcode{
-  width: 100px;
+  width: 120px;
   height: auto;
   /* padding-left: 10px; */
   padding-right: 0;
@@ -146,9 +146,9 @@ p:first-child{
 @page:right {
   margin-left: 0.5in;
   margin-right: 0.3in;
-  margin-top: 85px;
+  margin-top: 30px;
   padding-top: 30px;
-  border: 1px solid black;
+
 /*   
   content:"What is document?";
 
