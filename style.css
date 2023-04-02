@@ -1,12 +1,9 @@
-html {
-  /* background-color: black; */
-}
 body {
   font-family: 'Exo 2', sans-serif;
-  background: lightgray;
   font-size: 8.5pt;
   counter-reset: page;
   margin: 10px;
+  background: black;
   /* border: 1px solid black;
   border-radius: 0.6rem; */
 
@@ -15,9 +12,6 @@ body {
   padding-left: 13px;
 }
 
-p{
-/* padding: 20px; */
-}
 
 h1{
   font-size: 30px;
@@ -33,7 +27,17 @@ h2{
   text-transform: uppercase;
 }
 
+.cover {
+  background-color: white;
+  color: black;
+  border-radius: 0.25in;
+  padding: 0.25in;
+  line-height: 16px;
+}
 
+.page {
+  break-after: page;
+}
 
 .smallt{
   font-size: 10pt;
@@ -42,7 +46,7 @@ h2{
   /* padding: 20px; */
 }
 img.qrcode{
-  width: 120px;
+  width: 110px;
   height: auto;
   /* padding-left: 10px; */
   padding-right: 0;
@@ -50,10 +54,12 @@ img.qrcode{
   padding-bottom: 0px;
 }
 
+.hr{
+  opacity: 0.9;
+}
 .maincode{
   width: 100px;
-  position:relative;
-  left:70%;
+  margin-left:70%;
 }
 img.face{
   width:300px;
@@ -67,14 +73,14 @@ img.face{
   display: flex;
   justify-content: space-between;
   width: 400px;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 15px;
 
 }
 .flex-container > div {
  padding-right: 20px;
  line-height: 30px;
- font-weight: 200;
+ font-weight: 300;
 }
 
 
@@ -88,16 +94,17 @@ table{
 
 figure{
   margin-top: 10%;
-  break-before:page;
-  outline: 4px ridge rgb(255, 255, 255);
+  /* outline: 4px ridge rgb(255, 255, 255); */
+
   outline-offset: 30px;
   border-radius: 5px;
+
 }
 
-.text{
+/* .text{
   break-before: right;
   
-}
+} */
 
 figcaption{
   text-align: center;
@@ -108,12 +115,9 @@ p:first-child{
 
 }
 
-
-
-
 @media print {
   body {
-    /* background: black; */
+    color: white;
     font-size: 10px;
   }
 }
@@ -124,17 +128,19 @@ p:first-child{
   margin-top: 0.25in;
   margin-bottom: 0.5in;
   font-size: 10px;
- 
   border-radius: 10px;
+  bleed: 0.25in;
+  marks: crop;
 
 }
 
 
 @page:left {
   margin-left: 0.3in;
-  margin-right: 0.5in;
+  margin-right: 0.25in;
   margin-top: 30px;
   padding-top: 30px;
+  background: black;
 
   /* border: 1px solid white; */
 
@@ -149,10 +155,11 @@ p:first-child{
 
 
 @page:right {
-  margin-left: 0.5in;
+  margin-left: 0.25in;
   margin-right: 0.3in;
   margin-top: 30px;
   padding-top: 30px;
+  background: black;
 
 /*   
   content:"What is document?";
