@@ -8,9 +8,7 @@ body {
   border-radius: 0.6rem; */
 
 }
-.word {
-  padding-left: 13px;
-}
+
 
 
 h1{
@@ -85,31 +83,8 @@ img.face{
 }
 
 
-table{
-  margin: 0px 30px 30px 30px;
-  border-spacing: 15px 5px;
-
-}
 
 
-
-figure{
-  margin-top: 10%;
-  /* outline: 4px ridge rgb(255, 255, 255); */
-
-  outline-offset: 30px;
-  border-radius: 5px;
-
-}
-
-/* .text{
-  break-before: right;
-  
-} */
-
-figcaption{
-  text-align: center;
-}
 
 p:first-child{
   margin-top: 0;
