@@ -31,7 +31,7 @@ h2{
   border-radius: 0.25in;
   padding: 0.25in;
   line-height: 16px;
-  margin-top: 50px;
+  margin-top: 30px;
   
 
 }
@@ -107,50 +107,12 @@ p:first-child{
   margin-bottom: 0.5in; */ 
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 10px;
+  /* font-size: 10px; */
   border-radius: 10px;
   bleed: 0.25in;
-  marks: crop;
+  /* marks: crop; */
   
   
-}
-
-
-@page:left {
-  /* margin-left: 0.3in;
-  margin-right: 0.25in;
-  margin-top: 30px;
-  padding-top: 30px;
-  background: black; */
-
-  /* border: 1px solid white; */
-
-  /* @bottom-left {
-    content: counter(page);
-  }
-  @bottom-right {
-    content:"CRYPTO ART";
-  } */
-}
-
-
-
-@page:right {
-  /* margin-left: 0.25in;
-  margin-right: 0.3in;
-  margin-top: 30px;
-  padding-top: 30px;
-  background: black; */
-
-/*   
-  content:"What is document?";
-
-  @bottom-left {
-    content:"RACHEL CHEN";
-  }
-  @bottom-right {
-    content: counter(page);
-  } */
 }
 
 
@@ -198,12 +160,9 @@ p:first-child{
   margin-top: 2px;
   break-before: page;
 }
-.grid-container > div {
-  /* border: 0.1px dashed rgb(124, 124, 124); */
-  /* border: 0.1px dashed red; */
-}
+
 .item1{
-  border: 0.1px dashed white;
+  border: 0.1px dashed rgb(46, 46, 46);
 }
 
 .grid-container2{
@@ -215,10 +174,6 @@ p:first-child{
   break-before: page;
 }
 
-.grid-container2 > div {
-  /* border: 0.1px dashed rgb(124, 124, 124); */
-  /* border: 0.1px dashed orange; */
-}
 
 .grid-container4{
   display: grid;
@@ -341,7 +296,6 @@ p:first-child{
 }
 
 
-
 .grid-container15 {
   display: grid;
   grid-template-columns: 290px 190px;
@@ -351,6 +305,14 @@ p:first-child{
   break-before: page;
 }
 
+.grid-container16{
+  display: grid;
+  grid-template-columns: 190px 290px;
+  grid-template-rows: 255px 255px 255px ;
+  margin-left: -2px;
+  margin-top: 2px;
+  break-before: page;
+}
 
 
 .item2{
@@ -367,7 +329,7 @@ p:first-child{
   outline: 1px solid white;
   outline-offset: -13px;
   text-align: center;
-  border: 0.1px dashed white;
+  border: 0.1px dashed rgb(46, 46, 46);
 }
 
 h3{
@@ -377,11 +339,22 @@ h3{
 .flexbox2{
   display: flex;
   justify-content: space-between;
-  font-size: 2px;
+  font-size: 0.5px;
   font-weight: 100;
   padding-left: 4px;
   padding-right: 4px;
   gap:3px;
+}
+
+.flexbox3{
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.5px;
+  font-weight: 100;
+  padding-left: 4px;
+  padding-right: 4px;
+  gap:3px;
+  margin-top: -10px;
 }
 
 .flexbox1{
